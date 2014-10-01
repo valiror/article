@@ -1,0 +1,19 @@
+<h1>Show post</h1>
+<p>
+  <strong>Post name:</strong>
+  <%= @post.post_name %>
+</p>
+ <p>
+  <strong>User name:</strong>
+  <%= @post.user_name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @post.email %>
+</p>
+<p>
+  <strong>Mobile no:</strong>
+  <%= @post.mobile_no %>
+</p>
+ 
+<%= link_to 'Back', posts_path %>
