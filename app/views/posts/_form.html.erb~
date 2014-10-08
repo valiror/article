@@ -10,24 +10,27 @@
     </ul>
   </div>
   <% end %>
-  <p>
+<div class="">
+  <div class="field"><br>
     <%= f.label :post_name %><br>
     <%= f.text_field :post_name %>
-  </p>
- <p>
+  
+ </div>
+ <div class="field"><br>
     <%= f.label :user_name %><br>
     <%= f.text_field :user_name %>
-  </p>
-<p>
+  </div>
+<div class="field"><br>
     <%= f.label :email %><br>
     <%= f.email_field :email %>
-  </p>
-  <p>
+  </div>
+  <div class="field"><br>
     <%= f.label :mobile_no %><br>
-    <%= f.text_field :mobile %>
-  </p>
+    <%= f.text_field :mobile_no %>
+  </div><br/><br/>
  
-  <p>
+  <div class="action">
     <%= f.submit %>
-  </p>
+  </div><br>
+</div>
 <% end %>

@@ -1,12 +1,12 @@
 <h1>Listing Posts</h1>
 
-<table>
+<table style="width:100%" border="1">
   <tr>
     <th>Post Name</th>
-   <th>User Name</th>
+    <th>User Name</th>
     <th>Email</th>
     <th>Mobile No</th>
-    <th colspan="3"></th>
+    <th colspan="10"></th>
   </tr>
  
 <% @posts.each do |post| %>
@@ -23,6 +23,8 @@
 <% end %>
 </table>
 <br><br>
-<%= link_to 'New Post', new_post_path %>
+<p><%= link_to 'New Post', new_post_path %></p>
 <br><br>
-<%= will_paginate @posts, :page_links => false%>
+<%= will_paginate @posts%>
+
+<hr>
