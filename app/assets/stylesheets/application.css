@@ -11,6 +11,25 @@
  *= require_self
  *= require_tree .
  */
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('index.jpeg') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
 h1
 { 
  background-color: cyan;
@@ -22,9 +41,6 @@ h1:hover
 color: mistyrose;
 }
 
-
- 
-  
    &:hover
   {
    color: aqua;
@@ -49,7 +65,7 @@ margin-bottom: 50px;
 margin-top: 50px;
 font-family: "Times New Roman", Georgia, Serif; 
 color: black;
-background-color: honeyDew;
+background-color: #989564;
 }
 
 footer
@@ -102,3 +118,4 @@ color: red;
 color: navy;
 font-family: "Times New Roman", Georgia, serif;
 }
+
