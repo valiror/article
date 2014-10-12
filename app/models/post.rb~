@@ -6,4 +6,6 @@ validates :post_name, :length => { minimum:3, maximum:50 }
 validates :user_name, :length => { minimum:2, maximum:15}
 
 validates :mobile_no, presence: true, numericality: { only_integer: true }
+
+
 end
