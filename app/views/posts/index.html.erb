@@ -1,6 +1,7 @@
-<h1>Listing Posts</h1>
+<%= render "slide"%>
+<br><br><br><h1 align="center">Listing Posts</h1>
 
-<table style="width:100%" border="1">
+<table style="" align="center" border="1">
   <tr>
     <th>Post Name</th>
     <th>User Name</th>
@@ -21,12 +22,11 @@
                     method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
-</table>
-<br><br>
-<p><%= link_to 'New Post', new_post_path %></p>
-<br><br>
+</table><br><br>
+<p align="center"><%= link_to 'New Post', new_post_path %></p>
 
-<%= will_paginate @posts%>
 
-<hr>
+<p align="center"><%= will_paginate @posts%></p>
+
+
 

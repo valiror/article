@@ -1,19 +1,20 @@
-<h1>Show post</h1>
-<p>
+<%= render "slide"%>
+<br><br><h1 align="center">Show post</h1>
+<p align="center">
   <strong>Post name:</strong>
   <%= @post.post_name %>
 </p>
- <p>
+ <p align="center">
   <strong>User name:</strong>
   <%= @post.user_name %>
 </p>
-<p>
+<p align="center">
   <strong>Email:</strong>
   <%= @post.email %>
 </p>
-<p>
+<p align="center">
   <strong>Mobile no:</strong>
   <%= @post.mobile_no %>
 </p>
  
-<%= link_to 'Back', posts_path %>
+<p align="center"><%= link_to 'Back', posts_path %></p>

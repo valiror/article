@@ -11,112 +11,25 @@
  *= require_self
  *= require_tree .
  */
-.scrollToTop{
-	width:100px; 
-	height:137px;
-	padding:10px; 
-	text-align:center; 
-	background: whiteSmoke;
-	font-weight: bold;
-	color: #444;
-	text-decoration: none;
-	position:fixed;
-	top:75px;
-	right:40px;
-	display:none;
-	background: url('index.jpeg') no-repeat 10px 20px;
-}
-.scrollToTop:hover{
-	text-decoration:none;
-        color: cyan;
-}
 
-h1
-{ 
- background-color: cyan;
-text-align: center;
-color: blue;
- }
-h1:hover
-{
-color: mistyrose;
-}
 
- .show:hover
-  {
-   color: aqua;
-   background-color: #000;
-  }
-
-h2
-{ 
- color: red;
-background-color: white;
-text-align: center
-
- }
-
-body
-{
-text-align:center; 
-margin-left:50px;
-padding-top: 15px;
-margin-right: 50px;
-margin-bottom: 50px;
-margin-top: 50px;
-font-family: "Times New Roman", Georgia, Serif; 
-color: black;
-background-color: #989564;
-}
-
-footer
-{ 
-padding-bottom: 90px; 
-background:;
-}
-
-form_for
-{
-font-color:  ;
-text-align: ;
-}
-
-f.submit
-{
-color:navy;
-}
-table
-{
-
-text-align: center;
-font-color: navy;
-}
-th
-{
-text-align: center;
-color: navy;
-}
-
-td{
-text-align: center;
-font-color: navy;
-}
-tr
-{
-text-align: center;
-color: black; 
-font-family: "Times New Roman", Georgia, Serif;
-}
-ul
-{
-color: red;
-font-family: "Times new Roman", Georgia, serif;
-}
-div{
+<style="text/css">
 h2{
-color: red;
+    margin: 0;     
+    color: cyan;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
 }
-color: navy;
-font-family: "Times New Roman", Georgia, serif;
+.item{
+    background: green;    
+    text-align: center;
+    height: 400px !important;
 }
-
+.carousel{
+    margin-top: 45px;
+}
+.bs-example{
+	margin: 20px;
+}
+</style>
