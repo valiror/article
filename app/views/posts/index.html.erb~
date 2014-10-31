@@ -1,13 +1,14 @@
 <%= render "slide"%>
 <br><br><br><h1 align="center">Listing Posts</h1>
-
-<table style="" align="center" border="1">
+<div class="table-responsive">
+<table class="table" style="" align="center" border="1">
+<div class="container-fluid">
   <tr>
     <th>Post Name</th>
     <th>User Name</th>
     <th>Email</th>
     <th>Mobile No</th>
-    <th colspan="10"></th>
+    <th colspan="5"></th>
   </tr>
  
 <% @posts.each do |post| %>
@@ -21,8 +22,10 @@
     <td><%= link_to 'Destroy', post_path(post),
                     method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
+</div>
 <% end %>
 </table><br><br>
+</div>
 <p align="center"><%= link_to 'New Post', new_post_path %></p>
 
 
